@@ -1,8 +1,10 @@
+/* purgecss start ignore */
 @import "tailwindcss/base";
 @import "tailwindcss/components";
+/* purgecss end ignore */
 @import "tailwindcss/utilities";
 
 body {
-    background: #f3f4fb 
+    background: #f3f4fb; 
 }
 

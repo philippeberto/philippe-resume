@@ -34,7 +34,7 @@ const Index = (props) => {
                     
             {props.repos.map (repo => {
                 return (
-                    <a href={'https://github.com/philippeberto/'+repo.name}><div key={repo.id} className="rounded bg-green-200 mx-8 my-4 p-4 shadow-xl hover:shadow-lg hover:bg-green-300 hover:border-solid">
+                    <a key={repo.id} href={'https://github.com/philippeberto/'+repo.name}><div className="rounded bg-green-200 mx-8 my-4 p-4 shadow-xl hover:shadow-lg hover:bg-green-300 hover:border-solid">
                         <h3 className="font-bold">{repo.name}</h3>
                         <p>{repo.description}</p>
                     </div></a>
