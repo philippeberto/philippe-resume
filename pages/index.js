@@ -6,12 +6,12 @@ import Hero from '../Hero/index'
 
 const Index = (props) => {
     return( 
-        <div className="container mx-auto">
+        <div className="container mx-auto lg:w-3/4">
             <PageHead />
             <Hero />
             
             <div className=' bg-white p-4 text-center rounded-lg shadow-lg'>
-                <p>Programador Fullstack, desenvolvo sites e sistemas web baseados nas tecnologias Javascript, Node.js e React.</p>
+                <p>Desenvolvedor Fullstack, desenvolvo sites e sistemas web baseados nas tecnologias Javascript, Node.js e React.</p>
             </div>
 
             <h3 className='text-center py-4 text-xl md:text-3xl uppercase text-green-500 font-bold'>Minha Formação</h3>
