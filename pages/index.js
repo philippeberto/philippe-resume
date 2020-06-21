@@ -10,7 +10,7 @@ const Index = (props) => {
             <PageHead />
             <Hero />
             
-            <div className=' bg-white p-4 text-center rounded-lg shadow-lg'>
+            <div className=' bg-white p-4 text-center rounded-lg shadow-lg mt-4'>
                 <p>Desenvolvedor Fullstack, desenvolvo sites e sistemas web baseados nas tecnologias Javascript, Node.js e React.</p>
             </div>
 
