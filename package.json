@@ -1,7 +1,6 @@
 {
   "name": "Philippe-resume",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -20,5 +19,14 @@
     "react-icons": "^3.10.0",
     "tailwindcss": "^1.4.6"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philippeberto/philippe-resume.git"
+  },
+  "bugs": {
+    "url": "https://github.com/philippeberto/philippe-resume/issues"
+  },
+  "homepage": "https://github.com/philippeberto/philippe-resume#readme",
+  "description": ""
 }

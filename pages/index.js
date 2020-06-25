@@ -1,6 +1,10 @@
 import React from 'react'
 import PageHead from '../components/head'
-import Hero from '../Hero/index'
+import Hero from '../components/Hero/index'
+import Summary from '../components/summary'
+import Education from '../components/Education/index'
+import Footer from '../components/footer'
+import Repos from '../components/Repos/index'
 
 
 
@@ -9,26 +13,8 @@ const Index = (props) => {
         <div className="container mx-auto lg:w-3/4">
             <PageHead />
             <Hero />
-            
-            <div className=' bg-white p-4 text-center rounded-lg shadow-lg mt-4'>
-                <p>Desenvolvedor Fullstack, desenvolvo sites e sistemas web baseados nas tecnologias Javascript, Node.js e React.</p>
-            </div>
-
-            <h3 className='text-center py-4 text-xl md:text-3xl uppercase text-green-500 font-bold'>Minha Formação</h3>
-            <div className=' bg-white p-4 rounded-lg shadow-lg'>
-                <div className='grid grid-cols-2 ml-6'>
-                    <div>
-                        <h2 className='text-green-500 uppercase'>Graduação</h2>
-                        <h3 className='text-sm md:text-xl uppercase'>Análise e Desenvolvimento de Sistemas</h3>
-                        <h4 className='text-xs md:text-sm'>UCL - Faculdade do Centro Leste, Serra - Brasil</h4>
-                    </div>
-                    <div className='ml-10'>
-                        <h2 className='text-sm md:text-xl text-green-500 uppercase'>Extras</h2>
-                        <h3 className='text-sm md:text-xl uppercase'>Fulstack Master</h3>
-                        <h4 className='text-xs md:text-sm'>Curso Online - DevPleno</h4>  
-                    </div>           
-                </div>
-            </div>
+            <Summary />
+            <Education />
             <h3 className='text-center mt-4 text-xl md:text-3xl uppercase text-green-500 font-bold'>Minhas Contribuições</h3>
             <p className='text-center'>Public Repos: {props.user.public_repos} | Public Gists: {props.user.public_gists} | Followers: {props.user.followers}</p>
                     
@@ -39,13 +25,8 @@ const Index = (props) => {
                         <p>{repo.description}</p>
                     </div></a>
                 )
-            })}
-            <div className='bg-gray-800 border border-green-500 mt-8'></div>
-            <div className='text-center text-sm m-3'>
-                <p>Este site foi criado durante o curso Fullstack Master. Foram utilizados NextJS + SSR (Server Side Rendering)
-                + Vercel (como platforma). Podes encontrar o código-fonte deste projeto em:
-                <a href='https://github.com/philippeberto/philippe-resume' className='hover:underline'> https://github.com/philippeberto/philippe-resume</a></p>            
-            </div>
+            })}        
+            <Footer />
         </div>
     )
 }
