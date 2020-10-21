@@ -5,7 +5,6 @@ const Repos = ({user, repos}) => {
         <div>
             <h3 className='text-center mt-4 text-xl md:text-3xl uppercase text-green-500 font-bold'>Minhas Contribuições</h3>
             <p className='text-center'>Public Repos: {user.public_repos} | Public Gists: {user.public_gists} | Followers: {user.followers}</p>
-            <div className='lg:grid lg:grid-cols-3 lg:h-16'>
                 {repos.map(repo => {
                     return (
                         
@@ -19,7 +18,6 @@ const Repos = ({user, repos}) => {
                         </a>
                     )
                 })}  
-            </div>
         </div>
     )
 
