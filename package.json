@@ -19,7 +19,9 @@
     "react-icons": "^3.10.0",
     "tailwindcss": "^1.4.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "object-path": ">=0.11.5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/philippeberto/philippe-resume.git"
