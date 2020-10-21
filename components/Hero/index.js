@@ -6,7 +6,8 @@ const Hero = () => {
         <div className='md:grid md:grid-cols-2 m-2 lg:mt-4'> 
             <div className='lg:ml-8'>
                 <h1 className="text-xl uppercase leading-none lg:mt-8">Olá, eu sou o Philippe Berto</h1>
-                <h3 className="font-bold text-2xl uppercase leading-none lg:text-3xl">Fullstack Developer</h3>
+                <h3 className="inline font-bold text-2xl uppercase leading-none lg:text-3xl">Fullstack Developer</h3>
+                <p className='block'>Em formação</p>
                 <ContactMe />
             </div>
             <div className='my-4 flex justify-center'>

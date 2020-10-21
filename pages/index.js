@@ -9,8 +9,6 @@ import Repos from '../components/Repos/index'
 
 
 const Index = ({repos, user}) => {
-    console.log('repos:',repos)
-    console.log('user:',user)
     return( 
         <div className="container mx-auto lg:w-3/4">
             <PageHead />
